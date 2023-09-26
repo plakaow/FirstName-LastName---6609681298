@@ -16,7 +16,7 @@ b.Red{
     position: relative;
     width: 100%;
     height: 85%;
-    background-image: url("https://github.com/plakaow/MyCSTUPassport-6609681298/blob/ab26f6b19b56fbf08fb98f304b56f91935a7b3d5/image/photo.jpg");
+    background-image: url(./image/photo.jpg);
     background-size: cover;
     background-position: 0%;
     
