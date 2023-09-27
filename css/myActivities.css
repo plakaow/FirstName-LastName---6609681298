@@ -7,7 +7,7 @@
 }
 body
 {
-    background-color: #12194A;
+    background-color: #141414;
 }
 .container
 {
@@ -31,7 +31,7 @@ body
     height: 500px;
     border: 5px solid;
     border-color: white;
-    border-radius: 4px;
+    border-radius: 2px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 .big-box-detail
@@ -61,5 +61,5 @@ p
 .box-detail
 {
     padding: 2rem;
-    margin-bottom: 25px;
+    margin-bottom: 75px;
 }
