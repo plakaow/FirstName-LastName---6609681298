@@ -49,6 +49,14 @@ nav{
     align-items: center;
     font-size: 24px;
 }
+.menu_bar{
+    display: none;
+    margin-left: 20px;
+    
+}
+.menu_bar img{
+    width: 40px;
+}
 .logo p{
     font-size: 38px;
 }
@@ -200,10 +208,59 @@ h3 {
 
 /* for phone */
 @media only screen and (max-width: 850px) and (min-width:350px){
-    body{
+    .MyAct,
+    .Ori,
+    .MyAdv{
+        display: none;
+    }
+    .nav_bar{
+        margin-top: 10px;
+    }
+    .menu_bar{
+        display: flex;
+        justify-content: center;
+    }
+    .Adv_user{
+        display: flex;
+        width: 100%;
+    }
+    .Adv_user a img{
+        width: 30px;
+        background-color: white;
+        border-radius: 100px;
+        border: 2px solid #1111;
+        padding: 5px;
+    }
+    .logo{
         
     }
-
-
-
+    .logo p{
+        font-size: 22px;
+    }
+    .logo p .Nred{
+        font-size: 26px;
+    }
+    .maincontain_introduce{
+        width: 80%;
+    }
+    .nickname{
+        font-size: 32px;
+    }
+    .intro-head,
+    .intro-main{
+        font-size: 14px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .next{
+        position: absolute;
+        right: 5%;
+    }
+    .footer_content a{
+        font-size: 12px;
+        margin: 30px;
+    }
 }
