@@ -98,19 +98,29 @@ ul li a{
 }
 
 .videosetting{
-    text-align: center;
+    margin-top: 50px;
+}
+
+.videotag_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 .videotag{
+    position: absolute;
+    display: flex;
+    align-items: baseline;
+    margin-top: -45px;
+    width: 75%;
     color: #ffffff;
     font-size: 24px;
-    margin-right: 65%;
-    margin-top: 20px;
-    margin-bottom: 15px;
 }
 
 video {
     width: 75%;
+    display: flex;
 }
 
 h3 {
@@ -136,7 +146,11 @@ h3 {
     justify-content: space-between;
 }
 .footer_content a{
-    margin: 100px;
+    color: #ffffff;
+    margin: 75px;
+}
+.next a{
+    color: #ffffff;
 }
 
 /* for tablet*/
@@ -152,7 +166,7 @@ h3 {
     }
     .Adv_user a img{
         width: 40px;
-        background-color: #DCDCDC;
+        background-color: white;
         border-radius: 100px;
         border: 2px solid #1111;
         padding: 5px;
@@ -164,8 +178,8 @@ h3 {
         margin-left: 5%;
     }
     .nickname{
-        font-size: 65px;
-        padding-bottom: 40px;
+        font-size: 50px;
+        padding-bottom: 30px;
     }
     h3 {
         color: #ffffff; 
@@ -182,4 +196,14 @@ h3 {
         right: 5%;
     }
     
+}
+
+/* for phone */
+@media only screen and (max-width: 850px) and (min-width:350px){
+    body{
+        
+    }
+
+
+
 }
